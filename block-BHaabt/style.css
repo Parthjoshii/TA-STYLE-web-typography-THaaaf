@@ -89,21 +89,15 @@ body {
 
 .banner {
     background-color: rgb(44, 38, 64);
-    height: 500px;
-    position: absolute;
     width: 100%;
 }
-.clearfix::before, .clearfix::after {
-    content: "";
-    display: table;
-}
-.clearfix::after {
-    clear: both;
+.banner-img {
+    margin-bottom: -175px;
 }
 .article-one {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    padding: 50px 0;
 }
 .art-one {
     width: 600px;
@@ -130,7 +124,7 @@ p {
 .article-two {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 175px;
 }
 .art-two {
     width: 600px;
@@ -202,7 +196,7 @@ p {
     margin-right: 75px;
 }
 footer {
-    margin-top: 2000px;
+    margin-top: 75px;
 }.socials {
     display: flex;
     justify-content: space-between;
