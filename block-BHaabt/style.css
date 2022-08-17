@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /* general style */
+*::before,
+*::after { box-sizing: border-box;}
+body {
+    letter-spacing: -2px;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.h1 {
+    font-size: 42px;
+    color: rgb(44, 39, 62);
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: -2px;
+}
+.links a, button {
+    font-size: 20px;
+    color: rgb(123, 121, 125);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.btn-header {
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    margin-right: 0;
+    border-radius: 5px;
+}
+
+.banner {
+    background-color: rgb(44, 38, 64);
+    height: 500px;
+    position: absolute;
+    width: 100%;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.article-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.art-one {
+    width: 600px;
+    text-align: left;
+}
+h2 {
+    font-size: 60px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 24px;
+}
+p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-top: 25px;
+}
+.btn-one {
+    background-color:rgb(44, 38, 64) ;
+    color: white;
+    margin-top: 25px;
+}
+.article-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.art-two {
+    width: 600px;
+    text-align: center;
+    height: 519px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.page-text {
+    color:rgb(123, 121, 125) ;
+    text-align: left;
+    font-size: 25px;
+}
+.know-more {
+    margin-top: 25px;
+}
+.article-three {
+    margin-top: 75px;
+}
+.process {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-solid {
+    padding: 10px;
+    background-color: rgb(138, 180, 240);
+    font-size: 25px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.topic {
+    font-size: 30px;
+    color: rgb(44, 39, 62);
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+}
+.process-details {
+    width: 350px;
+}.page-text-two {
+    color:rgb(123, 121, 125) ;
+    text-align: left;
+    font-size: 20px;
+}
+.work {
+    background-color: rgb(44, 38, 64);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    height: 220px;
+}
+.find-out {
+    font-size: 45px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 20px;
+    width: 360px;
+    padding: 40px;
+}
+.btn-two {
+    background-color:rgb(44, 38, 64) ;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 75px;
+}
+footer {
+    margin-top: 2000px;
+}.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.fa-brands {
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.fa-square-facebook {
+    margin-right: 30px;
+}
+.footer-links {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 20px;
+}
+.footer-links a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+}
+.end {
+    background-color: rgb(44, 38, 64);
+    text-align: center;
+    color: gray;
+    font-family: 'Karla', sans-serif;
+    padding: 20px 0;
+    word-spacing: 4px;
+}
